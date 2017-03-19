@@ -1,0 +1,18 @@
+A pirate crew decides to search for treasure more efficiently by splitting up into N groups. They will later reconvene and total the amount of treasure each group found, and will split the treasure evenly amongst each group. However, groups who do not find any treasure will not be included in the division of profit. Find how much the groups who receive gold will make from this treasure hunt!
+Notes	If a group finds 0 gold, they will not be included in the splitting of the profit. Round to the nearest integer.
+
+Input	Line 1: N, number of groups
+Line 2...N+1: g_i, how much gold group finds
+
+Output	The amount of gold received by the groups who find gold.
+
+Sample Input 1	
+3
+10
+0
+6
+
+Sample Output 1	
+8
+
+Worth	2 points
