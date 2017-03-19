@@ -1,0 +1,22 @@
+Problem: Bedtime at Sea
+
+Problem Description	After the first day at sea, several groups of pirates have to decide their sleeping arrangement. They all share one large rectangular room with N rows and M columns of beds. The first group of pirates splits the room into two parts, making one cut across the room at a time, either vertical or horizontal, by putting up a straight curtain between the beds across the room, and the first group picks one of the two parts and claims all of the beds in that part. The next group of pirates splits the remaining unclaimed beds in the same way, by putting one straight curtain up across the unclaimed part of the room between the unclaimed beds. Each pirate band demands a certain number of beds. Help the pirates determine whether their demands are possible to be met.
+
+Notes	0 < B <= 15, number of pirate bands. Once a curtain is put up, another curtain cannot pass through it. All of the beds must be taken.
+
+Input	Line 1: integer B, the number of pirate bands
+Line 2: integers N, and M, the number of rows N, the number of columns M
+Line 3: B integers b_i, each describe the number of beds required by each pirate band
+
+Output	Yes, if the arrangement is possible
+No, if the arrangement is impossible
+
+Sample Input 1	
+4
+3 4
+6 3 2 1
+
+Sample Output 1	
+yes
+
+Worth	9 points
