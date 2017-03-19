@@ -1,0 +1,27 @@
+Problem: Organize the Fleet
+
+Problem Description	Pirate Captain Bernum loves gold--and he's just picked up a huge stash of it at an island surrounded by cliffs! With booty in hand, the captain prepares to leave, only to notice a problem: his fleet of ships is in the wrong order! You see, Captain Bernum is a very organized pirate, and he assigns numbers to his ships so that everyone knows which ship gets to go first. Normally, being out of order has an easy fix--but in the tight confines of the island, there's only enough space for one ship to move at a time! Hoping to get to his next stash of gold as soon as possible, Captain Bernum sits down to calculate how long it will take to get his ships in order and leave. Help him find the smallest number of ship movements needed to sort the fleet in ascending, row-major numerical order!
+
+Notes	The ships are represented by a 3x3 grid containing each integer from 0 to 8. The 0 represents the one empty space. As an example, if the input is
+1 5 7
+2 3 8
+0 6 4
+Then the goal is to get to
+1 2 3
+4 5 6
+7 8 0
+In the fewest moves possible.
+
+Input	Line 1: A B C, random integers between 0 and 8 Line 2: D E F, random integers between 0 and 8 Line 3: G H I, random integers between 0 and 8
+
+Output	The smallest possible number of moves needed to sort the grid in ascending numerical order.
+
+Sample Input 1	
+1 2 3
+4 5 6
+7 0 8
+
+Sample Output 1	
+1
+
+Worth	9 points
