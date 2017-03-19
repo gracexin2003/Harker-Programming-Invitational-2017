@@ -1,0 +1,23 @@
+Problem: Don't Let the Ship Sink
+
+Problem Description	A pirate ship stops by N treasure islands. On each island, the pirates find a treasure chest. The i-th treasure chest has a value v_i and a weight w_i. The pirates want to sail away with the maximum value of treasure without sinking – if they carry on board a total weight exceeding S, their ship will sink. What is the maximum value the pirates can haul away in their ship?
+
+Notes	1 <= N <= 1000, 1 <= S <= 5000, 
+1 <= w_i <=S, 1 <= v_i < 1,000,000
+
+Input	Line 1: Two space-separated integers N and S 
+Line 2...N+1: N lines, one for each treasure chest. Each line contains two space separated integers w_i and v_i.
+
+Output	Line 1: The maximum value the ship can haul away
+
+Sample Input 1	
+4 10
+4 15
+3 5
+7 28
+5 19
+
+Sample Output 1	
+34
+
+Worth	9 points
