@@ -1,0 +1,26 @@
+Problem: Pirate Buffet
+
+Problem Description	The captain has ordered the crew mates to watch their calories. However, the captain’s method of enforcing this is not always efficient. Indeed, the chef instead makes separate servings of varying calories. Help the crewmates find the optimal meal that yields the closest calories to their original intake without exceeding this value.
+
+Notes	Hint: it is not always optimal to choose the largest serving
+
+Input	Line 1: two space-separated integers, C and S, the number of calories originally consumed and the number of servings
+Line 2: C_i, S space-separated integers indicating the number of calories in each serving
+
+Output	The most number of calories the crew can consume without going over their original intake..
+
+Sample Input 1	
+40 6
+7 13 17 19 29 31
+
+Sample Output 1	
+39
+
+Sample Input 2	
+100 4
+90 4 2 6
+
+Sample Output 2	
+100
+
+Worth	5 points
