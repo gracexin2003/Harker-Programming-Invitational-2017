@@ -1,0 +1,27 @@
+Problem: Count up the treasure!
+
+Problem Description	At the end of an exciting day, each pirate on a ship counts up the value of all the treasure chests he or she has found. The captain wants to make sure that none of the other pirates has a treasure chest that is worth more than any of his. If another pirate has a treasure chest that is worth more than the captain’s smallest treasure chest, the captain will take it. 
+Help Bartholomew, one of the other pirates, figure out how much he has at the end of the day.
+
+Notes	0 < N < 1000 
+0 < L, v_i < 1000
+
+Input	Line 1: L, the value of the captain’s smallest treasure chest
+Line 2: N, the number of treasure chests Bartholomew has
+Line 3...N+2: v_i, the value of each treasure chest
+
+Output	Line 1: The total value Bartholomew has at the end
+
+Sample Input 1	
+19
+5
+8
+7
+3
+24
+3
+
+Sample Output 1	
+21
+
+Worth	2 points
