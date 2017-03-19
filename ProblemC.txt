@@ -1,0 +1,16 @@
+Problem: Password
+
+Problem Description	Pirate Pete is trying to guess a password to enter a cave of treasure. A password is accepted if and only if it is a palindrome. Let Pete know whether he is allowed to enter!
+Notes	Testing for palindromes should be case insensitive and ignore spaces and punctuation.
+
+Input	Line 1: Pirate Pete’s guess
+
+Output	Line 1: “YES” or “NO” (with no quotes)
+
+Sample Input 1	
+A man, a plan, a canal: Panama
+
+Sample Output 1	
+yes
+
+Worth	2 points
