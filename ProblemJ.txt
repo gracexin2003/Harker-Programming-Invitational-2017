@@ -1,0 +1,38 @@
+Problem: Treasure in the Carrybean Sea
+
+Problem Description	There are N islands in the Carrybean sea. A pirate ship, The Black Purl, is on island 1 and wants to reach the treasure on island N over the course of many days. The Black Purl departs from island 1 at night and can travel to one other island during the day and one other island during the night (it alternates day and night). The cost to travel from two islands, island i and island k, is different during daytime and nighttime:
+During the day, guards on island k make it harder to get onto the island. The cost to travel from island i to island k during the day is the square of the number of guards on island k added to the square of the pythagorean distance between the two islands.
+cost_day_i_k = (x_i-x_k)^2+(y_i-y_k)^2 + g_k^2
+During the night, pirates on island i help The Black Purl set sail, and the guards on island k are asleep. The cost to travel from island i to island k during the night is the square of the number of pirates on island i subtracted from the square of the pythagorean distance between the two islands. However, if there is a nightstorm on the route between islands i and k, that route is not usable during the night in any direction.
+cost_night_i_k = (x_i-x_k)^2+(y_i-y_k)^2 - p_i^2 Find the minimum cost it takes The Black Purl to sail from island 1 to island N.
+
+Notes	0 < N < 10,000 
+0 < x_i, y_i < 100,000 
+0 < g_i, p_i < 100,000 
+The minimum cost to travel between any two islands is 1.
+
+Input	Line 1: Two space-separated integers N and M (N is the number of islands, M is the number of night storms)
+Line 2...N+1: N lines, one for each island 1 <= i <= N
+Each line contains 4 space-separated integers x_i, y_i, g_i, and p_i for each island. 
+x_i, y_i => x and y coordinates of island i
+g_i => number of guards on island i
+p_i => number of pirates hiding on island i
+Line N+2...N+M+1: M lines, one for each storm. Each line contains 2 space-separated integers s_k and e_k.
+s_k => starting point of the route impacted by the storm
+e_k => ending point of the route impacted by the storm
+
+Output	
+Line 1: Print the minimum cost required to reach island N from island 1.
+Output -1 if this is not possible.
+
+Sample Input 1	
+4 0
+1 1 1 1
+2 3 2 1
+4 3 2 4
+4 5 4 1
+
+Sample Output 1	
+13
+
+Worth	9 points
