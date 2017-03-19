@@ -1,0 +1,26 @@
+Problem: Pirate Navigator
+
+Problem Description	The crew needs help traversing the numerous obstacles in the vast ocean. The map indicates an obstacle by denoting it as a 'x', and clear water is denoted with a '.'. The starting position is indicated with an 'C', and the destination also with a 'C'. Determine the number of times the ship must turn in order to reach the destination.
+
+Notes	Assume that the crew's initial direction is unknown, and that the ship cannot travel diagonally. A turn is defined as every time the ship must change its direction.
+
+Input	Line 1: Two space-separated integers x and y, the coordinates of the map
+Line 2...y+1: c_i, the character on the map, either an 'x' or '.'
+
+Output	Line 1: The number of turns the ship must make
+
+Sample Input 1	
+7 8
+.......
+......C
+......*
+*****.*
+....*..
+....*..
+.C..*..
+.......
+
+Sample Output 1	
+3
+
+Worth	9 points
