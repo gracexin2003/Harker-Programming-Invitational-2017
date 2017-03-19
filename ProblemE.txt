@@ -1,0 +1,21 @@
+Problem: Pirate Brothers
+
+Problem Description	Two brothers, Jack and Sparrow, have just finished collecting their treasure and have begun to sail home. The treasure they have stumbled upon is filled with coins of varying coin values. Since Sparrow is asleep, and the tedious task of determining the total earnings from their adventure falls to Jack. Because Jack is a very greedy pirate, he decides to make sure that he ends up with more money than Sparrow, even if by a little bit. He does this by splitting the coins such that his profit is strictly greater than Sparrow’s. However, he does not want to appear too suspicious, so he wants to do this in the least amount of coins possible. Help Jack determine this amount of coins.
+
+Notes	Jack’s profit must be strictly greater than Sparrow
+
+Input	Line 1: N, number of coins
+Line 2...N+1; v_i, the value of each coin
+
+Output	The minimum number of coins Jack will keep
+
+Sample Input 1	
+3
+2
+1
+2
+
+Sample Output 1	
+2
+
+Worth	5 points
