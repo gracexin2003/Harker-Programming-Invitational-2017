@@ -1,0 +1,39 @@
+Problem: Pirate's Greed
+
+Problem Description	The pirate crew recently arrived on island Ihwai, and are now analyzing their treasure map in order to determine where to begin looking for gold. They notice that the treasure is separated into clumps denoted by 'x' on the map. If the part of the island does not contain any gold, it is denoted by a '.'. Help the crew determine how many clumps there are and the sizes of the different clumps.
+
+Notes	A clump of treasure is defined to be multiple 'x's either directly next to each other (to the north, south, east, west), or in any of the diagonal directions, but they must be within one unit of distance of each other.
+
+Input	Line 1: Two space-separated integers x and y, the coordinates of the map
+Line 2...y+1: c_i, the character on the map, either a 'x' or '.'
+
+Output	Line 1: N, the number of clusters
+Line 2...N+1: s_i, the size of each cluster in descending order
+
+Sample Input 1	
+3 4
+.x.
+x..
+..x
+.xx 
+
+Sample Output 1	
+2
+3
+2
+
+Sample Input 2	
+6 6
+.x..xx
+.xxx.x
+...x.x
+.x...x
+x.x..x
+.x..xx
+
+Sample Output 2	
+2
+13
+4
+
+Worth	5 points
