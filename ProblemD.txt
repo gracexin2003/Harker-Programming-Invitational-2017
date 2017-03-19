@@ -1,4 +1,4 @@
-D Problem: Which Island?
+Problem: Which Island?
 
 Problem Description	The pirate crew has discovered an incredibly useful map that gives both the distance and the expected gold that the island offers. However, they only have enough resources to make one trip (assume it is unlimited, but only enough to go to one island). In order to identify the 'best' island to visit, the pirates developed a formula, where the value of the island is dictated by the gold on the island divided by the distance to the island. Help the crew determine which island to go to.
 
