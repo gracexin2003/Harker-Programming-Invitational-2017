@@ -1,0 +1,39 @@
+Problem: Greatest Treasure
+
+Problem Description	Gretta has found a treasure map marked with N locations! At each location is a treasure chest worth a certain number of coins. 
+Help Gretta pick the treasure chest that is worth the most. Which location should Gretta travel to?
+
+Notes	0 < N < 1,000,000 
+Each unique location is given by a number between 1 and N, inclusive. 
+If there are multiple treasure chests with the greatest value, output all of the of the location numbers, sorted in increasing order, separated by new lines.
+
+Input	line 1: N, the number of islands 
+line 2…N+1: N lines, one for each island. Each line contains two space-separated integers L_i and C_i.
+
+Output	Line 1: The location of the most valuable treasure.
+
+Sample Input 1	
+5
+1 10
+4 7
+3 9
+2 100
+5 20
+
+Sample Output 1	
+2
+
+Sample Input 2	
+6
+1 10
+4 7
+3 9
+2 100
+5 20
+6 100
+
+Sample Output 2	
+2
+6
+
+Worth	5 points
